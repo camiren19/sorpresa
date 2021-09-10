@@ -71,9 +71,28 @@ main {
     background-repeat: no-repeat;
 }
 
+.content-img-meses {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    background-color: aquamarine;
+    background-image: url("corazones.jpg");
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+}
+
+
+
 #foto {
     width: 300px;
     height: 200px;
+}
+
+#foto-meses {
+    width: 220px;
+    height: 300px;
 }
 
 .versiculo {
@@ -86,6 +105,27 @@ main {
     height: 100px;
 }
 
+.meses {
+    color: rgb(148, 40, 40);
+    padding: 30px;
+}
+
+.meses p {
+    font-weight: bold;
+}
+
+.meses img {
+    width: 200px;
+    height: 220px;
+    border: 3px solid #c53131;
+}
+
 .versiculo p {
     font-weight: bold;
 }
+
+#regalo {
+    width: 200px;
+    height: 200px;
+}
+

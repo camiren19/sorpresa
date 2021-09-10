@@ -5,4 +5,10 @@ const cancion = () => {
 }
 
 
+const cancionDos = () => {
+    let etiqueta = document.createElement("audio")
+    etiqueta.setAttribute("src", "cancion2.mp3")
+    etiqueta.play()
+}
+
 
